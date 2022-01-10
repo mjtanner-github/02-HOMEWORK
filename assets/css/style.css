@@ -1,0 +1,176 @@
+*, pre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 10px;
+    /*border:1px solid red;*/
+    padding: 10px;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+img {
+    min-height: 100%;
+}
+.row {
+    display:table;
+    width:100%;
+    margin-bottom:20px;
+    padding:0;
+    /*border:1px solid red*/;
+}
+.col {
+    display: table-cell;
+    margin:0;
+    padding:0;
+}
+#name {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 24px;
+}
+nav {
+    padding-top: 15px;
+    height: 25px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    justify-content: center;
+    margin-left: 25px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    height:0;
+}
+
+div {
+    margin: 0;
+    /*border: 1px solid red;*/
+    padding: 0;    
+}
+section {
+    margin-left: 0;
+    /*border: 1px solid red;*/
+    padding-left: 0;    
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    /*border: 1px solid red;*/
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+h2 {
+    margin-top: 10px;
+    /*border: 1px solid red;*/
+    padding: 10px;
+}
+h3 {
+    margin-left:0;
+    margin-top:0;
+    margin-bottom:0;
+    /*border:1px solid red;*/
+}
+#header-subtitle {
+    margin:20px;
+    /*border:1px solid red;*/
+}
+p.subtitle{
+    margin:0;
+    border:0;
+}
+td {
+    width:33.33%;
+    /*border:1px solid red;*/
+}
+td img {
+    width:100px;
+    height:200px;
+    object-fit:cover;
+}
+
+tr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Contact-Me pre {
+    margin:10px;
+}
+#Work {
+    width:100%;
+    margin-top:10px;
+    padding:0;
+}
+.header-img-container {
+    position: relative;
+}
+.header-img-container div {
+    padding:0;
+    position:absolute;
+    right:60px;
+    bottom:20%;
+    color:black;
+    background-color:turquoise;
+}
+.img-container {
+    position: relative;
+    border: 5px solid turquoise;
+    margin: 10px;
+}
+.img-container div {
+    padding:10px;
+    position:absolute;
+    left:0;
+    bottom:30px;
+    color:black;
+    background-color:turquoise;
+}
+.Project-Name{
+    font-size:30px;
+    margin:0;
+    padding:0;
+}
+#header-subtitle{
+    font-size:20px;
+}
+.header-img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+#first-project-img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+.section-title{
+    font-size: 50px;
+}
+td.label{
+    width: 15%;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 20px;
+}
+td.content{
+    width:85%;
+    border-left: 3px solid rgb(70, 70, 70);
+    padding-left: 30px;
+}
+.section-title{
+    color: rgb(70, 70, 70);
+}
